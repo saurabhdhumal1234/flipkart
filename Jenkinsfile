@@ -13,6 +13,6 @@ pipeline {
 		stage('Deployment'){
 		    steps {
 			
-			sh 'cp target/LoginWebApp.war swapnil@127.0.1.1:/home/swapnil/Documents/GRRAS/apache-tomcat-8.5.35/webapps'
+			sh 'cp target/flipkart.war swapnil@127.0.1.1:/home/swapnil/Documents/GRRAS/apache-tomcat-8.5.35/webapps'
 	}
 }}}
